@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(3, 12, 45);
+}
+
+.home-main {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  align-items: center;
+  margin: 5% 10% 5% 10%;
+}
+
+.content-title {
+  font-size: 5rem;
+  color: rgb(222, 238, 252);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.content-list-item {
+  color: azure;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.login-btn {
+  font-size: 1.2rem;
+  margin-right: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  outline:none;
+  border: none;
+}
+
+.registerLink {
+  text-decoration: none;
+}
+
+.content-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.clinic {
+  background-color: aliceblue;
+  color: rgb(3, 12, 45);
+}
+
+.user {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  color: aliceblue !important;
+  border: aliceblue 1px solid
+}
+
+.Link{
+  text-decoration: none;
+}
